@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Facebook</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="default">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/facebook.js"></script>
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <div id="fb-root"></div>
+        <div id="loading">
+            <div>Loading...</div>
+        </div>
+        <div id="login" class="content">
+            <div>
+                <button class="btn btn-primary" id="login-button">Login with Facebook</button>
+            </div>
+        </div>
+        <div class="content" id="wrapper">
+            <div id="pages">
+                <div class="page">
+                    <div id="user"></div>
+                    <div id="friends">
+                        <button class="btn btn-primary" id="add">Send requests</button>
+                        <button class="btn btn-primary" id="logout">Logout</button>
+                        <table class="table table-hover table-bordered" id="table-user">
+                            <thead>
+                                <tr>
+                                    <th>User</th>
+                                    <th>Status</th>
+                                    <th>Id</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="page">
+                    <table class="table" id="table-profile">
+                        <thead>
+                            <tr>
+                                <th>Picture</th>
+                                <th>Data</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td id="picture-profile"></td>
+                                <td id="data-profile"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <button class="btn btn-primary" id="back-button">Back</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

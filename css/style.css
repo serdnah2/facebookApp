@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    min-height: 416px;
+}
+
+#wrapper{
+    width: 90%;
+    margin: 0 auto;
+    display: none;
+}
+
+.inline_block{
+    display: inline-block;
+}
+
+span.bold{
+    font-weight: bold;
+}
+
+.button_margin{
+    margin-right: 12px;
+}
+
+#user{
+    margin: 15px 0;
+    opacity: 0;
+    -webkit-transition: opacity 1s, -webkit-transform 0.5s;
+    -webkit-transform: translateX(40px);
+    -ms-transition: opacity 1s, -ms-transform 0.5s;
+    -ms-transform: translateX(40px);
+    -o-transition: opacity 1s, -o-transform 0.5s;
+    -o-transform: translateX(40px);
+    -moz-transition: opacity 1s, -moz-transform 0.5s;
+    -moz-transform: translateX(40px);
+    -webkit-backface-visibility: hidden;
+}
+
+#user span{
+    margin-left: 3%;
+}
+
+#friends{
+    opacity: 0;
+    -webkit-transition: opacity 1s, -webkit-transform 0.5s;
+    -webkit-transform: translateX(40px);
+    -ms-transition: opacity 1s, -ms-transform 0.5s;
+    -ms-transform: translateX(40px);
+    -o-transition: opacity 1s, -o-transform 0.5s;
+    -o-transform: translateX(40px);
+    -moz-transition: opacity 1s, -moz-transform 0.5s;
+    -moz-transform: translateX(40px);
+    -webkit-backface-visibility: hidden;
+}
+
+#login{
+    text-align: center;
+    display: none;
+    padding-top: 15px;
+}
+
+#login-button{
+    opacity: 0;
+    -webkit-transition: opacity 1s, -webkit-transform 0.5s;
+    -webkit-transform: translateX(40px);
+    -ms-transition: opacity 1s, -ms-transform 0.5s;
+    -ms-transform: translateX(40px);
+    -o-transition: opacity 1s, -o-transform 0.5s;
+    -o-transform: translateX(40px);
+    -moz-transition: opacity 1s, -moz-transform 0.5s;
+    -moz-transform: translateX(40px);
+    -webkit-backface-visibility: hidden;
+}
+
+.content-enable{
+    -webkit-transform: translateX(0px) !important;
+    -ms-transform: translateX(0px) !important;
+    -o-transform: translateX(0px) !important;
+    -moz-transform: translateX(0px) !important;
+    opacity: 1 !important;
+}
+
+.dot{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin: 10px auto 0;
+}
+
+.offline{
+    background: gray;
+}
+
+.active{
+    background: green !important;
+}
+
+.name{
+    margin-left: 3%;
+}
+
+#loading{
+    position: absolute;
+    display: none;
+    width: 90%;
+    height: 30px;
+}
+
+#loading div{
+    width: 150px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 3px 0;
+    background: #fff1a8;
+}
+
+#friends button{
+    margin-bottom: 15px;
+}
+
+.content{
+    overflow-x: hidden;
+}
+
+#pages{
+    width: 200%;
+    /*-webkit-transition: -webkit-transform 0.6s cubic-bezier(.08,.78,.92,.23);*/
+    -webkit-transition: -webkit-transform 0.3s;
+    -webkit-transform: translateX(0);
+    -webkit-backface-visibility: hidden;
+}
+
+.page{
+    width: 50%;
+    float: left;
+}
+
+#table-profile{
+    margin-top: 15px;
+}
+
+#add{
+    display: none;
+}
